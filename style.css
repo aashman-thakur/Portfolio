@@ -1,0 +1,113 @@
+body{
+    background-color:#111111;
+}
+h1{color: aquamarine;}
+
+.header{
+   text-align: center;
+}
+.links {
+    font-size: 200;
+    margin-top: 500; 
+    background-color:#99ff99;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-right: 500px;
+    color: red;
+}
+.title2{
+    background-color:#00aaff;
+    margin-left: 500px;
+}
+.games{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: black;
+    background-color:#cc00ff;
+    margin-right: 500px;
+    position:relative
+}
+
+.media{
+    margin-left: 500;
+    padding-top: 10px;
+    background-color: midnightblue;
+    display: flex;
+    align-content: inherit;
+    justify-content:space-evenly;
+    align-items: center ;
+    margin-left: 500px;
+}
+p,h2{
+color: black;
+text-align: center;
+}
+a:link{
+    color: #0000ff;
+}
+a:visited{
+    color: #ff0000;
+}
+.trex p{
+    position: absolute;
+    opacity: 0;
+}
+.trex:hover img{
+    position: relative;
+    opacity: 0.33;
+}
+.trex:hover p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity: 1;
+    transform:translate(-450%,-500%)
+}
+.ghost p{
+    position: absolute;
+    opacity: 0;
+}
+.ghost:hover img{
+    position: relative;
+    opacity: 0.33;
+}
+.ghost:hover p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity: 1;
+    transform:translate(-400%,-500%)
+}
+.canvas p{
+    position: absolute;
+    opacity: 0;
+}
+.canvas:hover img{
+    position: relative;
+    opacity: 0.33;
+}
+.canvas:hover p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity: 1;
+    transform:translate(100%,-500%)
+}
+.pong p{
+    position: absolute;
+    opacity: 0;
+}
+.pong:hover img{
+    position: relative;
+    opacity: 0.33;
+}
+.pong:hover p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity: 1;
+    transform:translate(900%,-500%)
+}
